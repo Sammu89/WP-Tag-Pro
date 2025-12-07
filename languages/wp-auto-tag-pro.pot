@@ -1,0 +1,527 @@
+# WordPress Auto-Tag Pro
+# Copyright (C) 2024 Sammu89
+# This file is distributed under the GPL v2 or later.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Auto-Tag Pro 1.0.0\n"
+"Report-Msgid-Bugs-To: https://example.com/support\n"
+"POT-Creation-Date: 2024-01-01 00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WordPress Auto-Tag Pro\n"
+"X-Domain: wp-auto-tag-pro\n"
+
+#: wp-auto-tag-pro.php:338
+#, php-format
+msgid "WordPress Auto-Tag Pro requires WordPress version 5.0 or higher. You are running version %s."
+msgstr ""
+
+#: wp-auto-tag-pro.php:358
+#, php-format
+msgid "WordPress Auto-Tag Pro requires PHP version 7.4 or higher. You are running version %s."
+msgstr ""
+
+#: wp-auto-tag-pro.php:365
+msgid "WordPress Auto-Tag Pro requires WordPress cron functionality to be enabled."
+msgstr ""
+
+#: wp-auto-tag-pro.php:380
+#, php-format
+msgid "WordPress Auto-Tag Pro requires the following PHP extensions: %s"
+msgstr ""
+
+#: wp-auto-tag-pro.php:434
+msgid "WordPress Auto-Tag Pro cannot be activated due to unmet requirements."
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:24
+#: includes/class-autotag-admin-html.php:512
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:44
+msgid "Settings"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:47
+msgid "Configuration"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:50
+msgid "Statistics"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:115
+msgid "Configuration Mode"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:120
+msgid "Classic Keywords"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:121
+msgid "Simple keyword list - one keyword creates one tag."
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:128
+msgid "Tag Families"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:129
+msgid "Group keywords into families - multiple keywords create one family tag."
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:138
+msgid "Convert Keywords to Families"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:147
+msgid "Convert Families to Keywords"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:154
+msgid "Year Tags"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:157
+msgid "Automatically add year tags to posts"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:160
+msgid "Year tags will always appear first, followed by other tags in alphabetical order."
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:165
+msgid "Enable & Add to Existing Posts"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:171
+msgid "Tag Strategy"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:175
+msgid "Append to existing tags"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:179
+msgid "Replace all existing tags"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:194
+msgid "Save Configuration"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:197
+msgid "Import"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:200
+msgid "Export"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:207
+msgid "Preview"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:209
+msgid "Enter Post ID"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:211
+#: includes/class-autotag-admin-html.php:474
+msgid "Preview Tags"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:233
+msgid "Keywords"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:235
+msgid "Enter keywords or phrases, one per line. Each keyword will create a corresponding tag when found in posts."
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:242
+msgid "wordpress\ncontent marketing\nsocial media\nblog writing"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:246
+#, php-format
+msgid "Keywords: %d / %d"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:265
+msgid "Create tag families where multiple keywords can trigger a single tag. Family name becomes the tag name."
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:275
+msgid "Add New Family"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:276
+msgid "Family name (becomes tag name)"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:280
+msgid "pina colada, martini, spritz, cocktail"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:283
+msgid "Add Family"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:288
+#, php-format
+msgid "Families: %d"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:289
+#, php-format
+msgid "Total Keywords: %d / %d"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:306
+msgid "Remove"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:312
+#, php-format
+msgid "%d keywords"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:343
+msgid "Processing Statistics"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:345
+msgid "Total Posts Processed:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:349
+msgid "Total Tags Added:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:353
+msgid "Year Tags Added:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:357
+msgid "Errors Count:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:363
+msgid "Posts Status"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:365
+msgid "Total Eligible Posts:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:369
+msgid "Processed Posts:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:373
+msgid "Needs Processing:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:377
+msgid "Outdated Posts:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:383
+msgid "Configuration"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:385
+msgid "Mode:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:389
+msgid "Tag Families"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:394
+msgid "Year Tags:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:396
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:396
+#: includes/class-autotag-admin-html.php:493
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:402
+msgid "Total Families:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:403
+msgid "Total Keywords:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:410
+msgid "Config Hash:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:445
+msgid "Status:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:453
+msgid "Last Processed:"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:454
+msgid "ago"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:461
+msgid "Pending Processing"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:464
+msgid "Processed"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:467
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:477
+msgid "Process Now"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:497
+msgid "Pending"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:501
+msgid "Outdated"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:504
+msgid "Up to Date"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:528
+msgid "Bulk Processing"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:531
+#, php-format
+msgid "Posts needing processing: %s"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:532
+#, php-format
+msgid "Outdated posts: %s"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:537
+msgid "Process New Posts"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:540
+msgid "Update Outdated Posts"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:543
+msgid "Reprocess All Posts"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:555
+msgid "Processing Results"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:561
+msgid "Maintenance Tools"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:565
+msgid "Clean Up Orphaned Meta"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:568
+msgid "Reset All Processing Status"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:571
+msgid "Clear Plugin Cache"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:577
+msgid "Debugging & Logs"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:581
+msgid "Debug Specific Post"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:586
+msgid "Enter Post ID to debug"
+msgstr ""
+
+#: includes/class-autotag-admin-html.php:588
+msgid "Run Debug"
+msgstr ""
+
+#: includes/ajax/class-bulk-ajax.php:54
+msgid "Invalid bulk action specified"
+msgstr ""
+
+#: includes/ajax/class-bulk-ajax.php:65
+msgid "No posts found matching the criteria"
+msgstr ""
+
+#: includes/ajax/class-bulk-ajax.php:88
+msgid "Failed to create processing queue"
+msgstr ""
+
+#: includes/ajax/class-bulk-ajax.php:97
+#, php-format
+msgid "Bulk processing started for %d posts"
+msgstr ""
+
+#: includes/ajax/class-bulk-ajax.php:106
+msgid "Error starting bulk process: "
+msgstr ""
+
+#: includes/ajax/class-bulk-ajax.php:119
+msgid "Invalid queue ID format"
+msgstr ""
+
+#: includes/ajax/class-bulk-ajax.php:126
+msgid "Queue not found or expired"
+msgstr ""
+
+#: includes/ajax/class-bulk-ajax.php:160
+msgid "Error getting progress: "
+msgstr ""
+
+#: includes/ajax/class-bulk-ajax.php:173
+msgid "Invalid queue ID format"
+msgstr ""
+
+#: includes/ajax/class-bulk-ajax.php:181
+msgid "Queue not found"
+msgstr ""
+
+#: includes/ajax/class-bulk-ajax.php:190
+msgid "Failed to cancel queue"
+msgstr ""
+
+#: includes/ajax/class-bulk-ajax.php:197
+msgid "Bulk processing cancelled successfully"
+msgstr ""
+
+# Additional common WordPress strings
+msgid "Settings"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Add New"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Please wait..."
+msgstr ""
+
+msgid "Processing..."
+msgstr ""
+
+msgid "Complete"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Retry"
+msgstr ""
+
+# Plugin-specific additional strings
+msgid "Auto-Tag Pro"
+msgstr ""
+
+msgid "Automatic Tagging"
+msgstr ""
+
+msgid "Content Analysis"
+msgstr ""
+
+msgid "Tag Management"
+msgstr ""
+
+msgid "Bulk Operations"
+msgstr ""
+
+msgid "System Health"
+msgstr ""
+
+msgid "Performance"
+msgstr ""
+
+msgid "Cache Management"
+msgstr ""
+
+msgid "Advanced Settings"
+msgstr ""
+
+msgid "Import/Export"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Support"
+msgstr ""

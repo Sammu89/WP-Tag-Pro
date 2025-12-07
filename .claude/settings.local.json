@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(php:*)",
+      "Bash(choco:*)",
+      "Bash(grep:*)",
+      "Bash(del \"C:\\Users\\Administrator\\Nextcloud\\Codes\\wp-auto-tag-pro\\test-new-classes.php\")",
+      "Bash(del \"C:\\Users\\Administrator\\Nextcloud\\Codes\\wp-auto-tag-pro\\test-cache.php\")",
+      "Read(C:\\Users\\Administrator\\Nextcloud\\Codes/**)",
+      "Bash(for file in wp-auto-tag-pro.php includes/class-autotag-processor.php includes/class-autotag-ajax.php includes/processing/class-processor-coordinator.php)",
+      "Bash(do echo \"Checking $file:\")",
+      "Bash(done)",
+      "Bash(for file in includes/ajax/class-*.php includes/processing/class-*.php)",
+      "Bash(tree:*)",
+      "Bash(for file in includes/ajax/*.php)",
+      "Bash(for file in includes/processing/*.php)",
+      "Read(C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-auto-tag-pro\\docs/**)",
+      "Read(C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-auto-tag-pro\\docs/**)",
+      "Bash(dir \"C:\\Users\\Sammu\\Dentego Cloud\\Codes\\wp-auto-tag-pro\\docs\" /s /q)",
+      "Bash(dir \"C:\\Users\\Sammu\\Dentego Cloud\\Codes\\wp-auto-tag-pro\\includes\\assets\")",
+      "Bash(node:*)",
+      "Read(//c/Users/Sammu/Dentego Cloud/Codes/wp-auto-tag-pro/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
